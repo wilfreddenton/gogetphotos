@@ -20,10 +20,10 @@ example `config.json`
 }
 ```
 
-**imgurClientId**: the client id of an imgur app (register an app on their site)
-**userAgent**: the user agent you want to make requests to reddit (some unique identifying string)
-**baseDir**: the directory the downloaded photos are saved to
-**defaultSubreddits**: when you run the gogetphotos without arguments these subreddits are downloaded
+- **imgurClientId**: the client id of an imgur app (register an app on their site)
+- **userAgent**: the user agent you want to make requests to reddit (some unique identifying string)
+- **baseDir**: the directory the downloaded photos are saved to
+- **defaultSubreddits**: when you run the gogetphotos without arguments these subreddits are downloaded
 
 ## Usage
 
