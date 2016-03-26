@@ -8,6 +8,7 @@ import (
 	"math"
 	"os"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -38,6 +39,7 @@ func main() {
 	if len(args) > 1 {
 		subreddits = os.Args[1:]
 	}
+	fmt.Println("Getting images from front pages of subreddits:", strings.Join(subreddits, ", "))
 	baseDir = config.BaseDir
 	counts := make(chan int)
 	done := make(chan *Fetcher)
